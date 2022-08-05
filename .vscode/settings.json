@@ -1,3 +1,7 @@
 {
-  "eslint.workingDirectories": ["./chat-app"]
+  "eslint.workingDirectories": ["./chat-app"],
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#184a83",
+    "titleBar.inactiveBackground": "#184a83"
+  }
 }
