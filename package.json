@@ -1,5 +1,5 @@
 {
-  "main": "public/electron.js",
+  "main": "public/main.js",
   "homepage": "./",
   "name": "chat-app",
   "version": "0.1.0",
