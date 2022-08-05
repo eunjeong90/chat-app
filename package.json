@@ -26,7 +26,8 @@
     "react-eject": "react-scripts eject",
     "start": "concurrently \"cross-env NODE_ENV=development BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
     "build": "yarn react-build && electron-builder",
-    "release": "yarn react-build && electron-builder --publish=always"
+    "release": "yarn react-build && electron-builder --publish=always",
+    "lint:fix": "eslint './src/**/*.{ts,tsx}'"
   },
   "build": {
     "appId": "com.example.chat",
@@ -60,6 +61,10 @@
     "electron": "^20.0.1",
     "electron-builder": "^23.3.3",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "prettier": "^2.7.1",
     "wait-on": "^6.0.1"
   }
 }
